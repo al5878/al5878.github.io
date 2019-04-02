@@ -1,0 +1,245 @@
+*{
+  font-family: 'Quicksand', sans-serif;
+}
+h1{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 48px;
+}
+h3{
+  font-weight: bold;
+}
+h4{
+  font-style: italic;
+}
+p{
+  font-size: 20px;
+}
+
+
+/* NAV BAR */
+.nav-container{
+  display: flex;
+  justify-content:flex-end;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.nav-item{
+  display: inline;
+  /* border: 1px solid black; */
+  list-style: none;
+  margin: 20px;
+
+}
+.nav-item a{
+  color: black;
+}
+/* buttons */
+.btn{
+  border-radius: 0px;
+}
+ #about-button .btn{
+  background-color: white;
+  border: 2px solid rgb(225,69,164);
+}
+#about-button .btn:hover{
+  background-color:  rgb(225,69,164);
+  color: white;
+}
+#resume-button .btn{
+ background-color: white;
+ border: 2px solid rgb(69,57,214);
+}
+#resume-button .btn:hover{
+ background-color:  rgb(69,57,214);
+ color: white;
+}
+
+#name{
+  margin-right: auto;
+}
+
+/* PROJECT PAGE */
+.project-container{
+  display: flex;
+  justify-content: space-between;
+  /* margin-right: 50px; */
+  /* border: 5px solid pink; */
+  margin: 0;
+  margin-top: 50px;
+  padding: 0;
+}
+
+.project-item{
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+
+  /* border: 5px solid black; */
+  list-style: none;
+  margin:auto;
+  width:300px;
+  height:500px;
+  text-align: center;
+}
+
+.project-item a{
+  color: black;
+  font-family: 'Julius Sans One', sans-serif;
+}
+.project-item:hover{
+  transition: 0.5s;
+  opacity: 0.75;
+}
+
+
+#photography{
+  background-image: url("images/photography.jpg");
+  background-position: center;
+}
+#photography .btn{
+ background-color: white;
+ border: 2px solid rgb(251,125,20);
+}
+#photography .btn:hover{
+  background-color: rgb(251,125,20);
+  color: white;
+}
+
+#illustrations{
+  background-image: url("images/illustrations.jpg");
+  background-position: center;
+}
+#illustrations .btn{
+ background-color: white;
+ border: 2px solid rgb(242,52,104);
+}
+#illustrations .btn:hover{
+  background-color: rgb(242,52,104);
+  color: white;
+}
+
+#code{
+  background-image: url("images/code.jpg");
+  background-position: center;
+}
+#code .btn{
+ background-color: white;
+ border: 2px solid rgb(146,68,223);
+}
+#code .btn:hover{
+  background-color: rgb(146,68,223);
+  color: white;
+}
+
+#app{
+  background-image: url("images/app.jpg");
+  background-position: center;
+}
+#app .btn{
+ background-color: white;
+ border: 2px solid rgb(38,51,188);
+}
+#app .btn:hover{
+  background-color: rgb(38,51,188);
+  color: white;
+}
+
+
+/* CONTENT PAGE */
+.content-heading{
+  text-align: center;
+}
+
+.content-tagline{
+  text-align: center;
+}
+
+.content-title{
+  text-align: center;
+}
+
+.content-title a{
+  color: black;
+  text-decoration: underline;
+}
+
+.content-description{
+  text-align: center;
+  width: 50%;
+  margin:auto;
+
+}
+.carousel-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/* CAROUSEL */
+.carousel-inner{
+  background-color: black;
+}
+.carousel-indicators{
+  position: relative;
+  top: 500px;
+}
+.carousel-description{
+  background-color: white;
+}
+
+/* ABOUT PAGE */
+.about-container{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  margin-top: 50px;
+  padding: 0;
+}
+
+.about-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  margin:auto;
+  width:350px;
+  height:500px;
+  text-align: center;
+}
+/* the vertical divider */
+.vertical-line{
+  width:2px;
+  height:400px;
+  background-color: rgb(207,102,225);
+}
+
+#about-heading{
+  text-align: center;
+}
+.about-list{
+  list-style: circle;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.about-list-item{
+  margin: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+#contact-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#contact-heading{
+  margin-bottom: 40px;
+}
+.contact-item{
+  margin-bottom: 0px;
+}
