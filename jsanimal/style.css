@@ -1,0 +1,16 @@
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+body{
+  background-color: lavender;
+}
+
+#flowercrown{
+
+  position: absolute;
+
+}
