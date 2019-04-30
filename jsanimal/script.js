@@ -23,14 +23,3 @@ function placeCrown(event){
   // console.log(left);
 
 }
-// // img.style.left = '-300px'
-
-//
-// var makeKittyWalk = function() {
-//   var left = parseInt(img.style.left)
-//   left = left + 10
-//   if (left > window.innerWidth){
-//     left = -300
-//   }
-//   img.style.left = left + 'px'
-// }
