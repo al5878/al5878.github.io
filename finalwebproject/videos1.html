@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>  <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Open+Sans" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>Dear Evan Fansen</title>
+  </head>
+  <body>
+
+        <div class="page-grid-container">
+
+          <!-- NAV BAR/MENU -->
+          <div class="menu">
+            <h1 id="title">
+              <a href="index.html">DEF</a>
+            </h1>
+              <div class="accordion" id="accordionExample">
+    <!-- Lyrics -->
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                      <button class="btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        Lyrics
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <ul class="menu-list">
+                        <li>
+                          Act 1
+                          <ul>
+                            <li>Anybody Have a Map?</li>
+                            <li>Waving Through A Window</li>
+                            <li>For Forever</li>
+                            <li>Sincerely, Me</li>
+                            <li>Requiem</li>
+                            <li>If I Could Tell Her</li>
+                            <li>Disappear</li>
+                            <li>You Will Be Found</li>
+                          </ul>
+                        </li>
+                        <li>Act 2
+                          <ul>
+                            <li>To Break In a Glove</li>
+                            <li>Only Us</li>
+                            <li>Good For You</li>
+                            <li>Words Fail</li>
+                            <li>So Big/ So Small</li>
+                            <li>Finale</li>
+                          </ul>
+
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Videos
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <a href="videos1.html">Act 1</a>
+                    </div>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <!-- HOLDER -->
+                      <a href="#">Act 2</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <a href="art.html">Art</a>
+                      </button>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+          </div>
+      <div class="header">
+        <h2 id="header-text"></h2>
+      </div>
+
+
+      <!-- VIDEO CONTENT -->
+      <div class="content" >
+        <div class="video-container">
+        <div class="video-item" id="vid1" onmouseover="showHeader(this,1)" onmouseout="showHeader(this,0)" >
+          <iframe width="560" height="315"  src="https://www.youtube.com/embed/DYUOKM2kkZc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br>
+          <a href="https://www.youtube.com/watch?v=DYUOKM2kkZc">beeyoungkah</a>
+        </div>
+        <div class="video-item" id="vid2" onmouseover="showHeader(this,2)" onmouseout="showHeader(this,0)">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/REIOnCTwjF0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br>
+          <a href="https://www.youtube.com/watch?v=REIOnCTwjF0">Working with Lemons</a>
+        </div>
+        <div class="video-item" id="vid3" onmouseover="showHeader(this,3)" onmouseout="showHeader(this,0)">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/-4fa6KYlwHo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br>
+          <a href="https://www.youtube.com/watch?v=-4fa6KYlwHo">Elena Tiralarc</a>
+        </div>
+        <div class="video-item" id="vid4" onmouseover="showHeader(this,4)" onmouseout="showHeader(this,0)">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/836YYx0qjgs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br>
+          <a href="https://www.youtube.com/watch?v=836YYx0qjgs">kjunginger</a>
+        </div>
+        <div class="video-item" id="vid5" onmouseover="showHeader(this,5)" onmouseout="showHeader(this,0)">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/FaP5CLCKdqg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br>
+          <a href="https://www.youtube.com/watch?v=FaP5CLCKdqg">mushie r.</a>
+        </div>
+        <div class="video-item" id="vid6" onmouseover="showHeader(this,6)" onmouseout="showHeader(this,0)">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/bNipU8JCBbE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br>
+          <a href="https://www.youtube.com/watch?v=bNipU8JCBbE">Mikky Be</a>
+        </div>
+        <div class="video-item" id="vid7" onmouseover="showHeader(this,7)" onmouseout="showHeader(this,0)">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/tiNe0L6kyto" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br>
+          <a href="https://www.youtube.com/watch?v=tiNe0L6kyto">trash cass</a>
+        </div>
+        <div class="video-item" id="vid8" onmouseover="showHeader(this,8)" onmouseout="showHeader(this,0)">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/o-tza5YqAD4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br>
+          <a href="https://www.youtube.com/watch?v=o-tza5YqAD4">szin</a>
+        </div>
+        <div class="video-item" id="vid9" onmouseover="showHeader(this,9)" onmouseout="showHeader(this,0)">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/In1LKczEbBk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br>
+          <a href="https://www.youtube.com/watch?v=In1LKczEbBk">scribs</a>
+        </div>
+        <div class="video-item" id="vid10" onmouseover="showHeader(this,10)" onmouseout="showHeader(this,0)">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/WT-8SDOwRh4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br>
+          <a href="https://www.youtube.com/watch?v=WT-8SDOwRh4">beeyoungkah</a>
+        </div>
+        <div class="video-item" id="vid11" onmouseover="showHeader(this,11)" onmouseout="showHeader(this,0)">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/MjB5rYqls3Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br>
+          <a href="https://www.youtube.com/watch?v=MjB5rYqls3Q">mushie r.</a>
+        </div>
+        <div class="video-item" id="vid12" onmouseover="showHeader(this,12)" onmouseout="showHeader(this,0)">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/K0sedCBJzd0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br>
+          <a href="https://www.youtube.com/watch?v=K0sedCBJzd0">Link too</a>
+        </div>
+        <div class="video-item" id="vid13" onmouseover="showHeader(this,13)" onmouseout="showHeader(this,0)">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/QxZRuvlv7aU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br>
+          <a href="https://www.youtube.com/watch?v=QxZRuvlv7aU">trash cass</a>
+        </div>
+        <div class="video-item" id="vid14" onmouseover="showHeader(this,14)" onmouseout="showHeader(this,0)">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/00MMGfPrNIU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br>
+          <a href="https://www.youtube.com/watch?v=00MMGfPrNIU">Working with Lemons</a>
+        </div>
+        <div class="video-item" id="vid15" onmouseover="showHeader(this,15)" onmouseout="showHeader(this,0)">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/ssCFUdXQAqw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br>
+          <a href="https://www.youtube.com/watch?v=ssCFUdXQAqw">kjunginger</a>
+        </div>
+
+      </div>
+
+      </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
